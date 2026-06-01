@@ -23,7 +23,7 @@
     --feuille-vif:#a2dab2;
     --filet:rgba(210,181,114,.28);
     --filet-fort:rgba(210,181,114,.52);
-    --max:46rem;
+    --max:58rem;
   }
 
   *{box-sizing:border-box;}
@@ -145,7 +145,9 @@
     font-family:"Cormorant Garamond",serif;
     font-weight:600;
     font-size:clamp(3.8rem,8vw + 1rem,9rem);
-    line-height:.92;letter-spacing:.04em;margin:0;
+    line-height:1;letter-spacing:.04em;margin:0;
+    /* Espace bas/côtés pour que les jambages du J et du q ne soient pas rognés par background-clip:text */
+    padding:.06em .08em .2em;
     background:linear-gradient(176deg,#f6e8c2 0%,var(--or-clair) 45%,var(--or) 100%);
     -webkit-background-clip:text;background-clip:text;
     color:transparent;-webkit-text-fill-color:transparent;
@@ -166,7 +168,7 @@
     font-weight:500;
     font-size:clamp(1.5rem,1.1rem + 1.5vw,2.25rem);
     line-height:1.55;color:var(--encre);
-    max-width:38rem;margin:0 auto;
+    max-width:46rem;margin:0 auto;
     text-wrap:balance;
   }
   .hero__verse .q{color:var(--or);font-style:normal;}
