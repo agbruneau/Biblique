@@ -22,9 +22,10 @@ Le contenu est élaboré dans un cadre **baptiste réformé / MacArthurien** :
 - souveraineté de Dieu, régénération monergique, persévérance des saints, *Lordship salvation* ;
 - lecture cessationniste de Jacques 5.14-15 (soin pastoral ordinaire, non guérison charismatique
   ni extrême-onction) ;
-- eschatologie dispensationaliste et prémillénariste à la manière de John MacArthur,
-  l'alternative covenantale / amillénariste de la Confession de 1689 étant signalée honnêtement
-  là où le texte le demande.
+- eschatologie dispensationaliste et prémillénariste à la manière de John MacArthur :
+  c'est sa lecture qui tranche chaque divergence, l'alternative covenantale / amillénariste
+  de la Confession de 1689 étant signalée honnêtement mais nettement subordonnée (témoin
+  minoritaire, jamais à parité ni le dernier mot ; promesses faites à Israël non spiritualisées).
 
 Sources doctrinales de référence : John MacArthur, Jean Calvin, la Confession de foi
 baptiste de 1689 (1689 LBCF).
