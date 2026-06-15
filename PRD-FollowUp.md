@@ -3,7 +3,7 @@
 **Document de suivi vivant** du `PRD-Recherche-Serie.md`. Mis à jour **à la fin de chaque activité
 complétée**. Source de vérité de l'avancement du programme (les 27 livres du NT).
 
-**Dernière mise à jour : 2026-06-15** (J1 Galates ✓ ; **J2 Luc 129/129 COMPLET** + intro + recomposition ; J2 se poursuit avec Actes) · **AGB** · **EBC**
+**Dernière mise à jour : 2026-06-15** (J1 ✓ ; **J2 COMPLET (Luc + Actes)** ; **J3 en cours : Philémon Ph.1 ✓, péricopes 0/4 lancées**) · **AGB** · **EBC**
 
 > Convention d'état : `✓` fait et vérifié · `◻` à faire · `~` en cours · `s.o.` sans objet.
 > Une activité n'est cochée qu'après **vérification par constat** (gabarit + conformité doctrinale) :
@@ -18,11 +18,11 @@ complétée**. Source de vérité de l'avancement du programme (les 27 livres du
 | Jalon | Contenu | État | Avancement | Date de clôture |
 |---|---|---|---|---|
 | J1 | Achèvement de **Galates** (phases 2-3 : 23 péricopes + intro HTML + recomposition) | **✓ COMPLET** | 23/23 + intro + recomposition | **2026-06-14** |
-| J2 | **Luc** puis **Actes** complétés (ordre imposé : Luc d'abord, ensuite Actes) | ~ en cours (Actes) | **1/2 (Luc ✓)** | — |
-| J3 | **Épîtres d'une saison** (12 livres) | ◻ à faire | 0/12 | — |
+| J2 | **Luc** puis **Actes** complétés (ordre imposé : Luc d'abord, ensuite Actes) | **✓ COMPLET** | **2/2 (Luc ✓ · Actes ✓)** | **2026-06-15** |
+| J3 | **Épîtres d'une saison** (12-15 livres) | ~ en cours | 0/15 (Philémon Ph.1 ✓) | — |
 | J4 | **Pauliniennes majeures + Hébreux** (Romains, 1-2 Co, Hébreux) | ◻ à faire | 0/4 | — |
 | J5 | **Évangiles + Apocalypse** (Matthieu, Marc, Jean, Apocalypse) | ◻ à faire | 0/4 | — |
-| J6 | **Clôture NT** (les 27 livres satisfont § 10.5 du PRD) | ◻ à faire | 3/27 livres | — |
+| J6 | **Clôture NT** (les 27 livres satisfont § 10.5 du PRD) | ◻ à faire | 4/27 livres | — |
 
 ---
 
@@ -38,7 +38,7 @@ Colonnes : **Sér** = série · **Glob** = recherche globale · **IntroHTML** = 
 | 41 | Marc | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 42 | **Luc** | ✓ | ✓ | ✓ | **129/129** | **✓ COMPLET** |
 | 43 | Jean | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
-| 44 | **Actes** | ✓ | ✓ | ◻ | **41/77** | **~ en cours (J2)** |
+| 44 | **Actes** | ✓ | ✓ | ✓ | **77/77** | **✓ COMPLET** |
 | 45 | Romains | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 46 | 1 Corinthiens | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 47 | 2 Corinthiens | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
@@ -51,7 +51,7 @@ Colonnes : **Sér** = série · **Glob** = recherche globale · **IntroHTML** = 
 | 54 | 1 Timothée | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 55 | 2 Timothée | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 56 | Tite | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
-| 57 | Philémon | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
+| 57 | **Philémon** | ✓ | ✓ | ◻ | **0/4** | **~ Phase 2-3 (J3)** |
 | 58 | Hébreux | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 59 | **Jacques** | ✓ | ✓ | ✓ | **12/12** | **✓ COMPLET (gabarit d'or)** |
 | 60 | 1 Pierre | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
@@ -62,7 +62,7 @@ Colonnes : **Sér** = série · **Glob** = recherche globale · **IntroHTML** = 
 | 65 | Jude | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 66 | Apocalypse | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 
-**Bilan : 3 livres complets (Jacques, Galates, Luc) · Actes en cours · 23 en attente.**
+**Bilan : 4 livres complets (Jacques, Galates, Luc, Actes) · 23 en attente.** **J2 clos.**
 
 > **Séquencement du loop (directive 2026-06-14)** : à la clôture vérifiée de **J1 (Galates)**,
 > enchaîner automatiquement le `/loop` sur **J2 jusqu'à complétion entière**, en commençant par
@@ -118,6 +118,9 @@ Colonnes : **.md/.pdf** = recherche exégétique + jumeau PDF · **HTML** = `ind
 
 | Date | Activité | Constat de vérification |
 |---|---|---|
+| 2026-06-15 | **J3 DÉMARRÉ — Philémon (57) Phase 1 produite et vérifiée** ; workflow péricopes (4 sem.) lancé | Phase 1 (recherche globale + série) via agent : `Recherche.md` (7 sections, 30.8 accents/Ko, 0 em-dash, 5 mots × 5 trad.) + `Serie.md` (**4 semaines** : 1.1-3, 1.4-7, 1.8-18, 1.19-25 ; couverture **1.1->1.25 contiguë** ; 34.7 accents/Ko, 0 em-dash). Série : « Philémon : l'Évangile qui réconcilie » ; sommet doctrinal sem. 3 (« mets-le sur mon compte » v.18 = imputation/substitution). Logo copié. Générateur `phm-workflow.js` dérivé d'`actes-workflow.js` (POSTURE corpus Philémon, BATCH=[1,2,3,4], dossiers 2 chiffres). **Différence J3 : Phase 1 PAS pré-faite** (à produire par livre avant les péricopes). |
+| 2026-06-15 | **J2 / ACTES CLÔTURÉ : 77/77 + intro landing page + recomposition** ; lot FINAL 64-77 vérifié (1 corrigé) | Lot 64-77 : **13 CONFORME + 1 corrigé** : sem. 65 (**fouet « lanières incrustées de métal ET D'OS » faussement attribué à MacArthur** ; note JMA 22.24 ne dit que « métal » ; « et d'os » retiré du .md et du .html, .pdf régénéré, diff anti-dérive = seule cette suppression). Intro 67 Ko, **77 liens résolus** vers des index.html existants, 0 em-dash, hero Actes 1.8, 3 mouvements, logo présent. **Recomposition Actes 1.1 -> 28.31 sans trou ni chevauchement** (77 péricopes contiguës, 4 coupures mi-verset a/b et rollovers validés sur les longueurs de chapitre). Dossier orphelin « à » vidé + renommé `__orphan_064_delete` (rmdir encore bloqué par OneDrive, à purger). **Actes 77/77 COMPLET. J2 entièrement clos (Luc ✓ + Actes ✓).** |
+| 2026-06-15 | **Actes sem. 54-65 VÉRIFIÉ (lot complet)** ; réf inter-chap. 64/66 normalisées ; lot FINAL 64-77 lancé | **12/12 CONFORME** (27.6-35.7 accents/Ko, 0 em-dash, 7 sections, doctrine conforme : Esprit/troupeau Ac 20.28, citoyenneté providentielle). Le lot 54-65 a bien tout produit (mon `ls` initial était un instantané en vol). MAIS sem. 64 créée sous nom non standard « (Actes 21.37 à 22.21) ». Réf inter-chapitre **64 (21.37-22.21) et 66 (22.30-23.11) corrigées de « à » vers tirets** (convention du dépôt, cf. Luc 104) ; le lot FINAL régénère donc 64-77 avec le nommage correct ; dossier orphelin « à » vidé (rmdir bloqué par OneDrive, à purger). Actes **65/77** sur disque. |
 | 2026-06-15 | **Actes sem. 30-41 VÉRIFIÉ (lot)** ; 2 corrigés ; lot 42-53 lancé | 10 CONFORME + 2 corrigés : sem. 40 (renvoi Mt 10.14 « Arrière-plan AT » -> « Parallèle direct », seul Ésaïe 49.6 reste AT, .pdf régén) ; sem. 41 (`index.html` manquant car agent html échoué sur erreur réseau, régénéré 57 Ko, fidèle au .md). Actes **41/77**. |
 | 2026-06-15 | **Actes sem. 18-29 VÉRIFIÉ (lot)** ; 1 corrigé (html) ; lot 30-41 lancé | 11 CONFORME + 1 corrigé : sem. 19 (refs de versets corrompues dans le `.html` « (2.1) » -> « (v. 1) » etc. ; `.md`/`.pdf` déjà corrects, sans régén PDF). Actes **29/77**. |
 | 2026-06-15 | **Actes sem. 6-17 VÉRIFIÉ (lot)** ; lot 18-29 lancé | **12/12 CONFORME** (26-33 accents/Ko, 0 em-dash ; Pentecôte/baptême de l'Esprit/régénération baptismale 2.38 conformes). Sem. 6-10 revérifiées avec succès après l'interruption. Actes **17/77**. |
