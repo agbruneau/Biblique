@@ -3,7 +3,7 @@
 **Document de suivi vivant** du `PRD-Recherche-Serie.md`. Mis à jour **à la fin de chaque activité
 complétée**. Source de vérité de l'avancement du programme (les 27 livres du NT).
 
-**Dernière mise à jour : 2026-06-14** (J1 / Galates COMPLET 23/23 + intro + recomposition ; J2 / Luc en lancement) · **AGB** · **EBC**
+**Dernière mise à jour : 2026-06-15** (J1 Galates ✓ ; **J2 Luc 129/129 COMPLET** + intro + recomposition ; J2 se poursuit avec Actes) · **AGB** · **EBC**
 
 > Convention d'état : `✓` fait et vérifié · `◻` à faire · `~` en cours · `s.o.` sans objet.
 > Une activité n'est cochée qu'après **vérification par constat** (gabarit + conformité doctrinale) :
@@ -18,11 +18,11 @@ complétée**. Source de vérité de l'avancement du programme (les 27 livres du
 | Jalon | Contenu | État | Avancement | Date de clôture |
 |---|---|---|---|---|
 | J1 | Achèvement de **Galates** (phases 2-3 : 23 péricopes + intro HTML + recomposition) | **✓ COMPLET** | 23/23 + intro + recomposition | **2026-06-14** |
-| J2 | **Luc** puis **Actes** complétés (ordre imposé : Luc d'abord, ensuite Actes) | ~ en cours (Luc) | 0/2 | — |
+| J2 | **Luc** puis **Actes** complétés (ordre imposé : Luc d'abord, ensuite Actes) | ~ en cours (Actes) | **1/2 (Luc ✓)** | — |
 | J3 | **Épîtres d'une saison** (12 livres) | ◻ à faire | 0/12 | — |
 | J4 | **Pauliniennes majeures + Hébreux** (Romains, 1-2 Co, Hébreux) | ◻ à faire | 0/4 | — |
 | J5 | **Évangiles + Apocalypse** (Matthieu, Marc, Jean, Apocalypse) | ◻ à faire | 0/4 | — |
-| J6 | **Clôture NT** (les 27 livres satisfont § 10.5 du PRD) | ◻ à faire | 1/27 livres | — |
+| J6 | **Clôture NT** (les 27 livres satisfont § 10.5 du PRD) | ◻ à faire | 3/27 livres | — |
 
 ---
 
@@ -36,9 +36,9 @@ Colonnes : **Sér** = série · **Glob** = recherche globale · **IntroHTML** = 
 |---|---|---|---|---|---|---|
 | 40 | Matthieu | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 41 | Marc | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
-| 42 | **Luc** | ✓ | ✓ | ◻ | **59/129** | **~ en cours (J2)** |
+| 42 | **Luc** | ✓ | ✓ | ✓ | **129/129** | **✓ COMPLET** |
 | 43 | Jean | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
-| 44 | Actes | ✓ | ✓ | ◻ | 0/? | Phases 2-3 (J2) |
+| 44 | **Actes** | ✓ | ✓ | ◻ | **41/77** | **~ en cours (J2)** |
 | 45 | Romains | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 46 | 1 Corinthiens | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 47 | 2 Corinthiens | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
@@ -62,7 +62,7 @@ Colonnes : **Sér** = série · **Glob** = recherche globale · **IntroHTML** = 
 | 65 | Jude | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 | 66 | Apocalypse | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 
-**Bilan : 2 livres complets (Jacques, Galates) · 1 en cours (Luc) · 24 en attente.**
+**Bilan : 3 livres complets (Jacques, Galates, Luc) · Actes en cours · 23 en attente.**
 
 > **Séquencement du loop (directive 2026-06-14)** : à la clôture vérifiée de **J1 (Galates)**,
 > enchaîner automatiquement le `/loop` sur **J2 jusqu'à complétion entière**, en commençant par
@@ -118,6 +118,18 @@ Colonnes : **.md/.pdf** = recherche exégétique + jumeau PDF · **HTML** = `ind
 
 | Date | Activité | Constat de vérification |
 |---|---|---|
+| 2026-06-15 | **Actes sem. 30-41 VÉRIFIÉ (lot)** ; 2 corrigés ; lot 42-53 lancé | 10 CONFORME + 2 corrigés : sem. 40 (renvoi Mt 10.14 « Arrière-plan AT » -> « Parallèle direct », seul Ésaïe 49.6 reste AT, .pdf régén) ; sem. 41 (`index.html` manquant car agent html échoué sur erreur réseau, régénéré 57 Ko, fidèle au .md). Actes **41/77**. |
+| 2026-06-15 | **Actes sem. 18-29 VÉRIFIÉ (lot)** ; 1 corrigé (html) ; lot 30-41 lancé | 11 CONFORME + 1 corrigé : sem. 19 (refs de versets corrompues dans le `.html` « (2.1) » -> « (v. 1) » etc. ; `.md`/`.pdf` déjà corrects, sans régén PDF). Actes **29/77**. |
+| 2026-06-15 | **Actes sem. 6-17 VÉRIFIÉ (lot)** ; lot 18-29 lancé | **12/12 CONFORME** (26-33 accents/Ko, 0 em-dash ; Pentecôte/baptême de l'Esprit/régénération baptismale 2.38 conformes). Sem. 6-10 revérifiées avec succès après l'interruption. Actes **17/77**. |
+| 2026-06-15 | **Actes sem. 1-5 VÉRIFIÉ (lot 1 partiel)** ; limite de session (reset 9:10 Toronto, levée) ; reprise lot 6-17 lancée | 5/5 CONFORME (30-35 accents/Ko, 0 em-dash). Sem. 6-10 produites (recherche+html sur disque) mais **vérif adverse interrompue** : reprises dans le lot 6-17 (production + revérification complètes). Sem. 11-12 sans fichiers. Actes **5/77 vérifiés**. |
+| 2026-06-15 | **J2 / ACTES démarré** : générateur `actes-workflow.js` construit (77 péricopes) ; lot 1 (sem. 1-12) lancé | Série Actes = « jusqu'aux extrémités de la terre », **77 péricopes**. Script généré depuis le gabarit Luc (POSTURE corpus Actes : Pentecôte unique, baptême de l'Esprit à la conversion, langues humaines/signe de jugement, régénération baptismale réfutée 2.38, Judas non sauvé). Réf inter-chapitre sem. 64, 66 gérées. Dossiers à 3 chiffres, vagues de ≤5. |
+| 2026-06-15 | **J2 / LUC CLÔTURÉ : 129/129 + intro landing page + recomposition** | Dernier lot 120-129 : **10/10 CONFORME** (27-32 accents/Ko). Intro 97 Ko, 0 em-dash, **129 liens résolus vers des index.html existants**, logo présent. **Recomposition 1.1 -> 24.53 sans trou ni chevauchement** (129 péricopes contiguës, réf inter-chapitre sem. 104 incluse). Toutes les sem. >= 25 accents/Ko. **Objectif « produire Luc 65-129 » ATTEINT** (et 1-64). Luc **129/129 COMPLET**. |
+| 2026-06-15 | **Luc sem. 108-119 VÉRIFIÉ (lot)** ; 1 corrigé ; lot FINAL 120-129 lancé | 11 CONFORME + 1 corrigé : sem. 114 (coquille « bruisant » -> « brisant », .pdf régénéré). Luc **119/129**. Dernier lot des péricopes (120-129, ascension incluse) lancé. |
+| 2026-06-15 | **Luc sem. 96-107 VÉRIFIÉ (lot)** ; lot 108-119 lancé | **12/12 CONFORME** (27-33 accents/Ko, 0 em-dash). Réf inter-chapitre sem. 104 (20.41-21.4) traitée. Notes mineures non bloquantes (sem. 100 jour entrée triomphale ; sem. 104 locution familière). Luc **107/129**. |
+| 2026-06-15 | **Luc sem. 84-95 VÉRIFIÉ (lot)** ; 1 corrigé ; lot 96-107 lancé | 11 CONFORME + 1 corrigé : sem. 91 (libellé de type « Old Testament background » -> « Arrière-plan AT », .pdf régénéré). Note : sem. 92 = 14 renvois (accepté CONFORME par la vérif adverse). Luc **95/129** (objectif 65-129 : 95-129 restants = 34 sem.). |
+| 2026-06-15 | **Luc sem. 72-83 VÉRIFIÉ (lot)** ; 2 corrigés ; lot 84-95 lancé | 10 CONFORME + 2 corrigés : sem. 72 (**citation inventée Spurgeon/1861 RETIRÉE** + sur-attributions à MacArthur réalignées sur les notes JMA 13.1-9, conformité doctrinale restaurée) ; sem. 76 (accents systématiques corrigés, 25.1->29.7/Ko). Tous revérifiés (0 em-dash, liens OK). Luc **83/129**. |
+| 2026-06-15 | **Luc sem. 60-71 VÉRIFIÉ (reprise après limite)** ; 2 corrigés ; lot 72-83 lancé | Limite de session levée. 10 CONFORME + 2 corrigés : sem. 68 (tableau ramené de 6 à 5 mots, retrait « vie/psychē ») ; sem. 69 (réf « il se ceindra » 12.39->12.37 ; **rétabli « non-croyants »** note 12.42, conformité doctrinale restaurée). Tous revérifiés (0 em-dash, 5 mots, liens OK). Luc **71/129**. |
+| 2026-06-15 | **Objectif : produire Luc sem. 65-129** ; reprise lancée (sem. 60-71, `wf_26ae4e3d`) | Luc 59/129 ; 70 sem. manquantes (60-129, dont 60-64 interrompues). Reprise après limite de session ; si limite encore active, le lot échoue et est reprogrammé. Production par lots de ≤12 (vagues de 5) jusqu'à 129/129. |
 | 2026-06-15 | **Luc sem. 55-59 VÉRIFIÉ (lot 6 partiel)** ; sem. 60-66 interrompues (limite de session, reset 2h America/Toronto) | 5/5 CONFORME (28-35 accents/Ko, 0 em-dash). Sem. 60-66 sans fichiers (agents stoppés par la limite de session, non par un défaut). Reprise programmée après 2h : `BATCH_NUMS` = 60-71. Luc **59/129**. |
 | 2026-06-15 | **Luc sem. 43-54 VÉRIFIÉ (lot 5)** ; lot 6 (sem. 55-66) lancé | Vérif adverse : **12/12 CONFORME** (28-34 accents/Ko, 0 em-dash, garde anti-anglicisme efficace). Obs. mineure non bloquante sem. 49 (transfiguration « six jours » d'après la note MacArthur sur Mt, vs « huit jours » lucanien). Luc **54/129**. |
 | 2026-06-15 | **Luc sem. 31-42 VÉRIFIÉ (lot 4)** ; 2 anglicismes corrigés ; lot 5 (sem. 43-54) lancé | Vérif adverse : 10 CONFORME + 2 corrigés (sem. 33 « le marvel » -> « il l'admira » en colonne KJF ; sem. 36 « forerunner » -> « précurseur »), `.pdf` régénérés et revérifiés (0 anglicisme résiduel). Garde anti-anglicisme ajoutée au prompt `luc-workflow.js`. Luc **42/129**. |
