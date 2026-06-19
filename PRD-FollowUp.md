@@ -3,7 +3,7 @@
 **Document de suivi vivant** du `PRD-Recherche-Serie.md`. Mis à jour **à la fin de chaque activité
 complétée**. Source de vérité de l'avancement du programme (les 27 livres du NT).
 
-**Dernière mise à jour : 2026-06-16** (J1 ✓ ; **J2 COMPLET (Luc + Actes)** ; **J3 ✅ COMPLET (15/15)** ; **J4 ~ EN COURS** : **Romains + 1 Co ✓ (2/4)** ; 2 Co 10/42 (lot 11-20 en cours) ; Hébreux prêt) · **AGB** · **EBC**
+**Dernière mise à jour : 2026-06-18** (J1 ✓ ; **J2 COMPLET (Luc + Actes)** ; **J3 ✅ COMPLET (15/15)** ; **J4 ~ EN COURS (3/4)** : **Romains ✓ · 1 Co ✓ · 2 Co ✓ COMPLET (42/42 vérifiées + recompo. 1.1→13.13 + page d'accueil)** ; reste **Hébreux** (Phase 1 ✓, lot 1-10 en production, 0/39)) · **AGB** · **EBC**
 
 > Convention d'état : `✓` fait et vérifié · `◻` à faire · `~` en cours · `s.o.` sans objet.
 > Une activité n'est cochée qu'après **vérification par constat** (gabarit + conformité doctrinale) :
@@ -20,7 +20,7 @@ complétée**. Source de vérité de l'avancement du programme (les 27 livres du
 | J1 | Achèvement de **Galates** (phases 2-3 : 23 péricopes + intro HTML + recomposition) | **✓ COMPLET** | 23/23 + intro + recomposition | **2026-06-14** |
 | J2 | **Luc** puis **Actes** complétés (ordre imposé : Luc d'abord, ensuite Actes) | **✓ COMPLET** | **2/2 (Luc ✓ · Actes ✓)** | **2026-06-15** |
 | J3 | **Épîtres d'une saison** (15 livres, § 12.1 pt3) | **✅ COMPLET** | **15/15** | **2026-06-16** |
-| J4 | **Pauliniennes majeures + Hébreux** (Romains, 1-2 Co, Hébreux) | **~ en cours** | **2/4 livres (Romains ✓, 1 Co ✓)** ; 2 Co Phase 3 ; Hébreux prêt | — |
+| J4 | **Pauliniennes majeures + Hébreux** (Romains, 1-2 Co, Hébreux) | **~ en cours** | **3/4 livres (Romains ✓, 1 Co ✓, 2 Co ✓)** ; reste Hébreux (lot 1-10 en production, 0/39) | — |
 | J5 | **Évangiles + Apocalypse** (Matthieu, Marc, Jean, Apocalypse) | ◻ à faire | 0/4 | — |
 | J6 | **Clôture NT** (les 27 livres satisfont § 10.5 du PRD) | ◻ à faire | 21/27 livres | — |
 
@@ -41,7 +41,7 @@ Colonnes : **Sér** = série · **Glob** = recherche globale · **IntroHTML** = 
 | 44 | **Actes** | ✓ | ✓ | ✓ | **77/77** | **✓ COMPLET** |
 | 45 | **Romains** | ✓ | ✓ | ✓ | **47/47** | **✓ COMPLET (J4)** |
 | 46 | **1 Corinthiens** | ✓ | ✓ | ✓ | **55/55** | **✓ COMPLET (J4)** |
-| 47 | **2 Corinthiens** | ✓ | ✓ | ◻ | **10/42** | ~ Phase 3 (lot 11-20 en cours) |
+| 47 | **2 Corinthiens** | ✓ | ✓ | ✓ | **42/42** | **✓ COMPLET (J4)** |
 | 48 | **Galates** | ✓ | ✓ | ✓ | **23/23** | **✓ COMPLET** |
 | 49 | **Éphésiens** | ✓ | ✓ | ✓ | **24/24** | **✓ COMPLET (J3)** |
 | 50 | **Philippiens** | ✓ | ✓ | ✓ | **15/15** | **✓ COMPLET (J3)** |
@@ -52,7 +52,7 @@ Colonnes : **Sér** = série · **Glob** = recherche globale · **IntroHTML** = 
 | 55 | **2 Timothée** | ✓ | ✓ | ✓ | **13/13** | **✓ COMPLET (J3)** |
 | 56 | **Tite** | ✓ | ✓ | ✓ | **8/8** | **✓ COMPLET (J3)** |
 | 57 | **Philémon** | ✓ | ✓ | ✓ | **4/4** | **✓ COMPLET (J3)** |
-| 58 | **Hébreux** | ✓ | ✓ | ◻ | **0/39** | ~ Phase 1 ✓ ; workflow prêt |
+| 58 | **Hébreux** | ✓ | ✓ | ◻ | **0/39 (lot 1-10 en prod.)** | ~ Phase 3 : lot 1-10 lancé |
 | 59 | **Jacques** | ✓ | ✓ | ✓ | **12/12** | **✓ COMPLET (gabarit d'or)** |
 | 60 | **1 Pierre** | ✓ | ✓ | ✓ | **17/17** | **✓ COMPLET (J3)** |
 | 61 | **2 Pierre** | ✓ | ✓ | ✓ | **10/10** | **✓ COMPLET (J3)** |
@@ -62,7 +62,7 @@ Colonnes : **Sér** = série · **Glob** = recherche globale · **IntroHTML** = 
 | 65 | **Jude** | ✓ | ✓ | ✓ | **7/7** | **✓ COMPLET (J3)** |
 | 66 | Apocalypse | ◻ | ◻ | ◻ | 0/? | Phase 1 à lancer |
 
-**Bilan : 21 livres complets (Jacques, Galates, Luc, Actes, Romains, 1 Corinthiens, Philémon, 2 Jean, 3 Jean, Jude, Tite, 2 Thess, Colossiens, Philippiens, 1 Thess, 1 Timothée, 2 Timothée, 1 Pierre, 2 Pierre, 1 Jean, Éphésiens) · 6 en attente.** **J1 ✓ · J2 ✓ · J3 ✅ COMPLET (15/15). J4 : Romains ✓ · 1 Co ✓ ; reste 2 Co + Hébreux. Puis J5 (Matthieu, Marc, Jean, Apocalypse).**
+**Bilan : 22 livres complets (Jacques, Galates, Luc, Actes, Romains, 1 Corinthiens, 2 Corinthiens, Philémon, 2 Jean, 3 Jean, Jude, Tite, 2 Thess, Colossiens, Philippiens, 1 Thess, 1 Timothée, 2 Timothée, 1 Pierre, 2 Pierre, 1 Jean, Éphésiens) · 5 en attente.** **J1 ✓ · J2 ✓ · J3 ✅ COMPLET (15/15). J4 : Romains ✓ · 1 Co ✓ · 2 Co ✓ ; reste Hébreux (lot 1-10 en production). Puis J5 (Matthieu, Marc, Jean, Apocalypse).**
 
 > **Séquencement du loop (directive 2026-06-14)** : à la clôture vérifiée de **J1 (Galates)**,
 > enchaîner automatiquement le `/loop` sur **J2 jusqu'à complétion entière**, en commençant par
@@ -118,6 +118,9 @@ Colonnes : **.md/.pdf** = recherche exégétique + jumeau PDF · **HTML** = `ind
 
 | Date | Activité | Constat de vérification |
 |---|---|---|
+| 2026-06-18 | **2 Corinthiens (47) CLÔTURÉ : 42/42 + page d'accueil — 3e LIVRE DU J4 COMPLET** (J4, /loop) | Page d'accueil `00 - Introduction/index.html` (52.0 Ko, gabarit Romains/Jacques or-noir, hero « Le trésor dans des vases de terre », verset-phare 4.7 NEG verbatim, **42 cartes en 5 mouvements** [I salutation/consolation 1-2 ; II gloire du ministère 3-6 ; III réconciliation/séparation 6-7 ; IV grâce du don 8-9 ; V défense de l'apostolat 10-13], logo présent, footer EBC + Simon Ouellette + AGB + NEG). Constat indépendant : **42/42 liens résolvent** vers des index.html existants, **0 em-dash**, 5 mouvements, 0 capitale non accentuée suspecte, densité prose body ~21/Ko (= gabarit Romains 20.8). **Recomposition 1.1→13.13 contiguë** déjà vérifiée. 2 Co **42/42 COMPLET**. J4 : **3/4 livres** (Romains ✓, 1 Co ✓, 2 Co ✓) ; reste Hébreux (lot 1-10 en production, `wf_4b7fe532`). |
+| 2026-06-18 | **2 Corinthiens (47) : vérif adverse 11-42 TERMINÉE (26 CONFORME + 6 corrigées) ; 42/42 doctrinalement conformes** (J4, /loop) | Workflow `wf_7ad73578` : 32 vérifiées, **0 bloquante**, 26 CONFORME d'emblée. 6 A_CORRIGER (toutes mineures) corrigées + recontrôlées : **19** (carte 6.13 « élargissez-vous aussi » → NEG « élargissez aussi votre coeur » ; sur-attribution LXX/Septante à MacArthur reformulée en observation de l'auteur dans .md+.html+.pdf) ; **24** (carte 8.8 « par le zèle » → NEG « par l'exemple du zèle des autres ») ; **35** (carte 12.4 « paroles ineffables » → NEG « merveilleuses ») ; **38** (cartes 12.14 « ne vous serai point à charge » → NEG « ne serai point à votre charge » ; 12.15 « je dépenserai » → NEG « je ferai très volontiers des dépenses ») ; **39** (cartes 12.19 « cherchons à nous justifier » → NEG « nous nous justifions » ; 12.20 paraphrase → NEG exact) ; **40** (barbarisme .md « qu'elle surge » → « surgisse »). Défaut récurrent isolé = **cartes de verset HTML décoratives** citant LSG/Darby/paraphrase sous étiquette « NEG » (le .md et le .pdf étaient corrects, sauf 19/40). **PDF 19+40 régénérés** par reconstruction JSON depuis le .md (`regen-2co.py`) + `generate-pdf.py`, **round-trip .md byte-identique** (validé sur 5 contrôles : 11, 20, 30, 41, 42). Constat indépendant : 0 em-dash, cartes désormais NEG exact, tableaux 5 trad. intacts. **2 Co 42/42 vérifiées** (1.1→13.13). Reste : page d'accueil `00/index.html` → clôture. |
+| 2026-06-18 | **2 Corinthiens (47) : état disque établi (42/42 produites) + recomposition vérifiée ; vérif adverse 11-42 lancée** (J4, /loop) | Constat indépendant : les **42 dossiers** ont chacun .md + .pdf + index.html — un workflow d'arrière-plan d'une session antérieure avait produit **11-42 au-delà** de ce que le PRD enregistrait (10/42). Scan mécanique 11-42 **PROPRE** : 0 tiret cadratin, densité d'accents **26.4-35.6/Ko**, **0 anglicisme « covenant »**, 11-12 sous-sections (structure cohérente avec 1-10 déjà vérifiées). **Recomposition 1.1→13.13 contiguë vérifiée** (longueurs de chapitre NEG ; cross-chap. 6.14-7.1 ; NEG s'arrête à 13.13). Workflow de **vérif adverse doctrinale** des 32 péricopes 11-42 (vs notes JMA, vagues de 5, schéma CONFORME/A_CORRIGER) lancé en arrière-plan (`wf_7ad73578`). Reste après vérif : corrections éventuelles + page d'accueil `00/index.html`. Puis **Hébreux** (39, `heb-workflow.js` prêt : 39 sem., 0 « covenant »). |
 | 2026-06-16 | **2 Corinthiens (47) sem. 1/3/9 CORRIGÉES (covenant→alliance) ; weeks 1-10 toutes propres** (J4) | Swap déterministe « (nouveau/ancien) covenant » → « (nouvelle/ancienne) alliance » dans .md+.html, .pdf régénérés (md byte-identique au md corrigé, diff vide). Constat indépendant : **0 « covenant »** dans les sem. 1-10 ni dans le GLOB ; « alliance » présent (×24 en sem.9). 26.9-32.9/Ko, 0 em-dash, byline/7 sections/5 mots/8 renvois/7 pistes intacts. 2 Co **10/42** (1.1→3.11). Reste lot 11-20 (en cours). |
 | 2026-06-16 | **2 Corinthiens (47) GLOB nettoyé ; lot 1-10 relancé (8 CONFORME) ; sem.1/3/9 « covenant » en correction ; lot 11-20 lancé** (J4) | Le relancé du lot 1-10 a révélé une **3e source de « covenant » : la recherche globale GLOB** (`00 - Introduction/Recherche.md`, 9 occ.) que les agents de péricope lisent pour cohérence. **GLOB corrigé** (`2co-rech.json` : du/le nouveau covenant + ancien covenant → alliance ; Recherche.md/.pdf régénérés, 0 covenant). Vérif adverse lot 1-10 : 7 vraiment propres (2,4,5,6,7,8,10) ; sem. 3 et 9 flaggées covenant, sem. 1 ratée par la vérif mais covenant ×1 constaté. **Agent de correction** (swap covenant→alliance + régén .pdf) lancé sur sem. 1, 3, 9. Lot 11-20 lancé en parallèle (GLOB propre). 2 Co **7/42** propres + 3 en correction. |
 | 2026-06-16 | **2 Corinthiens (47) : anglicisme « covenant » corrigé À LA SOURCE + limite de session ; lot 1-10 relancé propre** (J4) | 1er passage lot 1-10 : sem. 2-4 CONFORME, sem. 1 et 5 A_CORRIGER, sem. 6-10 échouées (limite de session reset 1:30pm, levée à 5:41pm). **Défaut systématique** : « nouveau covenant » (anglicisme) au lieu de « nouvelle alliance » dans les .md/.html des sem. 1-5 (×1 à ×8) — semé par MA POSTURE et les idées de la série. **Correction à la source** : « du nouveau covenant » → « de la nouvelle alliance » dans `2co-serie.json` (10×) et la POSTURE de `make-2co-workflow.py` (2×) ; Serie.md/.pdf régénérés (0 covenant) ; `2co-workflow.js` régénéré (0 covenant). Lot 1-10 **relancé propre** (écrase sem. 1-5 fautives, produit 6-10). `heb-workflow.js` déjà sans « covenant » (vérifié, POSTURE « nouvelle alliance »). |
