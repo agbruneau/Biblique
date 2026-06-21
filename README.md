@@ -1,75 +1,127 @@
 # Études bibliques et préparation de prédication
 
-> Ressource d'étude biblique et de préparation de prédication couvrant l'ensemble du **Nouveau
-> Testament**, préparée pour l'**Église Baptiste de Charlesbourg** (Québec ; pasteur Simon
-> Ouellette).
+> Ressource d'étude biblique et de préparation de prédication pour l'**Église Baptiste de
+> Charlesbourg** (Québec ; pasteur Simon Ouellette). Le **Nouveau Testament est couvert en entier**
+> (27 livres), et un ensemble croissant de **séries de l'Ancien Testament** s'y ajoute.
 
-Ce dépôt rassemble le matériel produit pour des **expositions suivies** (*lectio continua*) des
-livres du Nouveau Testament. Pour chaque livre : une **série de prédications**, des **recherches
-exégétiques**, le **texte biblique de référence** (NEG 1979) et les **notes d'étude de John
-MacArthur**, le tout dans un cadre baptiste réformé conforme à la théologie de MacArthur.
+Ce dépôt rassemble le matériel produit pour des **expositions suivies** (*lectio continua*),
+livre par livre. Pour chaque livre traité : un **plan de série de prédications**, une **recherche
+exégétique** par péricope, une **recherche globale** d'introduction, une **page de présentation
+web**, le **texte biblique de référence** (NEG 1979) et les **notes d'étude de John MacArthur**, le
+tout dans un cadre baptiste réformé conforme à la théologie de MacArthur.
 
-Le dépôt est structuré pour accueillir les **27 livres du NT**, chacun dans un dossier numéroté de
-**40 (Matthieu) à 66 (Apocalypse)** selon l'ordre canonique (numérotation des 66 livres de la
-Bible protestante : 39 livres de l'Ancien Testament, puis 27 du Nouveau).
+Les livres sont rangés dans des dossiers numérotés selon l'ordre canonique des **66 livres de la
+Bible protestante** (39 livres de l'Ancien Testament, puis 27 du Nouveau) : `01 - Genèse` à
+`66 - Apocalypse`. Le dossier `00 - Avant-propos/` réunit les pièces fondatrices du projet.
 
 ---
 
-## Couverture du Nouveau Testament
+## `00 - Avant-propos/` : les fondations du dépôt
 
-| # | Livre | Avancement |
-|---|---|---|
-| 40 | Matthieu | Planifié |
-| 41 | Marc | Planifié |
-| 42 | Luc | Recherche globale (série « Venu sauver les perdus ») |
-| 43 | Jean | Planifié |
-| 44 | Actes | Recherche globale (série « Jusqu'aux extrémités de la terre ») |
-| 45 | Romains | Planifié |
-| 46 | 1 Corinthiens | Planifié |
-| 47 | 2 Corinthiens | Planifié |
-| 48 | Galates | Planifié |
-| 49 | Éphésiens | Planifié |
-| 50 | Philippiens | Planifié |
-| 51 | Colossiens | Planifié |
-| 52 | 1 Thessaloniciens | Planifié |
-| 53 | 2 Thessaloniciens | Planifié |
-| 54 | 1 Timothée | Planifié |
-| 55 | 2 Timothée | Planifié |
-| 56 | Tite | Planifié |
-| 57 | Philémon | Planifié |
-| 58 | Hébreux | Planifié |
-| 59 | Jacques | **Complet** : 12 péricopes plus site de présentation (série « La foi qui agit ») |
-| 60 | 1 Pierre | Planifié |
-| 61 | 2 Pierre | Planifié |
-| 62 | 1 Jean | Planifié |
-| 63 | 2 Jean | Planifié |
-| 64 | 3 Jean | Planifié |
-| 65 | Jude | Planifié |
-| 66 | Apocalypse | Planifié |
+Avant les livres bibliques eux-mêmes, ce dossier rassemble les **références d'autorité**, les
+**standards doctrinaux** et les **ressources spirituelles** qui encadrent tout le travail, ainsi
+que l'**outillage** de production. C'est le socle sur lequel reposent toutes les recherches et
+toutes les séries.
 
-L'épître de **Jacques** est le livre le plus abouti (douze dossiers de recherche, un site de
-présentation) et sert de **gabarit de référence** pour les livres à venir. **Luc** et **Actes**
-disposent pour l'instant de leur recherche globale et d'un plan de série.
+### Référence d'autorité doctrinale
+
+- **[`NEG - MacArthur.pdf`](<00 - Avant-propos/NEG - MacArthur.pdf>)** : *La Sainte Bible avec
+  commentaires de John MacArthur* (Société Biblique de Genève) sur le texte NEG 1979, soit la Bible
+  complète (Ancien et Nouveau Testaments, **2216 pages**), avec pour chaque livre une introduction
+  (titre, auteur et date, contexte, thèmes historiques et théologiques, problèmes d'interprétation,
+  plan) puis le texte accompagné des notes d'étude verset par verset. C'est la **source qui tranche
+  la conformité doctrinale** de tout le matériel produit ; elle prime sur la mémoire et sur les
+  sources générales. Les fichiers de référence par livre (`NEG - <Livre>.md` et `JMA - <Livre>.md`)
+  en sont extraits.
+
+### Standards doctrinaux de l'Église
+
+- **[`Confession de foi-EBC.pdf`](<00 - Avant-propos/Confession de foi-EBC.pdf>)** : la confession
+  de foi de l'Église Baptiste de Charlesbourg (révisée en 2016). Elle énonce, article par article,
+  les convictions de l'assemblée : autorité et inerrance des Écritures (66 livres), Trinité,
+  création littérale en six jours, prémillénarisme prétribulationniste, retour imminent et corporel
+  du Christ. Elle **ancre dans la vie de l'Église** le cadre théologique sous lequel le dépôt est
+  produit.
+
+### Ressources de discipulat et de piété
+
+- **[`PrecisDicipulat.md`](<00 - Avant-propos/PrecisDicipulat.md>)** (et son `.pdf`) : un *Précis
+  du discipulat chrétien*. Il pose que le discipulat **est** la vie chrétienne elle-même (et non un
+  second niveau facultatif) : fruit nécessaire de la régénération, suivre Christ comme Seigneur
+  (*Lordship Salvation*), nourri par la Parole suffisante, vécu dans l'Église locale et transmis
+  par le mentorat, en vue de la conformité à Christ. Cadre MacArthur, sources documentées.
+- **[`Coram Christo.pdf`](<00 - Avant-propos/Coram Christo.pdf>)** : ressource d'accompagnement
+  pastoral (une page).
+- **[`Vallée de la Vision.pdf`](<00 - Avant-propos/Vallée de la Vision.pdf>)** : *La Vallée de la
+  Vision*, le recueil de prières et de méditations puritaines (édition française, Publications
+  Chrétiennes, 2023), soutien de la vie de prière personnelle et pastorale.
+
+### Outillage de production
+
+- **`extract_nt.py`** et **`extract_at.py`** : régénèrent les fichiers de référence
+  `NEG - <Livre>.md` / `JMA - <Livre>.md` depuis `NEG - MacArthur.pdf` (séparation des flux texte
+  biblique / notes d'étude par police et taille ; exigent PyMuPDF).
+- **`md-to-pdf.py`** : conversion d'un document markdown en PDF mis en page.
+
+---
+
+## Couverture biblique
+
+### Nouveau Testament : 27/27 livres complets
+
+L'intégralité du Nouveau Testament est traitée : pour chaque livre, une série figée, une recherche
+globale, une page d'accueil et **toutes les péricopes** (recherche `.md`, export `.pdf`, page
+`index.html`), la réunion des péricopes recomposant le livre de son premier à son dernier verset.
+
+| # | Livre | Péricopes | # | Livre | Péricopes |
+|---|---|---|---|---|---|
+| 40 | Matthieu | 89 | 54 | 1 Timothée | 18 |
+| 41 | Marc | 82 | 55 | 2 Timothée | 13 |
+| 42 | Luc | 129 | 56 | Tite | 8 |
+| 43 | Jean | 53 | 57 | Philémon | 4 |
+| 44 | Actes | 77 | 58 | Hébreux | 39 |
+| 45 | Romains | 47 | 59 | Jacques | 12 |
+| 46 | 1 Corinthiens | 55 | 60 | 1 Pierre | 17 |
+| 47 | 2 Corinthiens | 42 | 61 | 2 Pierre | 10 |
+| 48 | Galates | 23 | 62 | 1 Jean | 16 |
+| 49 | Éphésiens | 24 | 63 | 2 Jean | 4 |
+| 50 | Philippiens | 15 | 64 | 3 Jean | 4 |
+| 51 | Colossiens | 14 | 65 | Jude | 7 |
+| 52 | 1 Thessaloniciens | 11 | 66 | Apocalypse | 28 |
+| 53 | 2 Thessaloniciens | 7 | | | |
+
+L'épître de **Jacques** (12 péricopes plus site de présentation) est le **gabarit de référence**
+(structure et système visuel) sur lequel les autres livres ont été modelés.
+
+### Ancien Testament : séries en cours
+
+Des séries de l'Ancien Testament sont amenées au même niveau d'achèvement que le NT.
+
+| # | Livre / portée | Série | Péricopes | État |
+|---|---|---|---|---|
+| 01 | Genèse 1 à 11 (« De Babel à Abraham ») | ✓ | 12 | Complet |
+| 19 | Psaume 19 (« Dieu a parlé ») | ✓ | 4 | Complet |
+| 19 | Psaume 119 (« Une lampe à mes pieds ») | ✓ | 22 (par strophes) | En production |
 
 ---
 
 ## Cadre théologique
 
 Tout le contenu est élaboré dans un cadre **baptiste réformé, conforme à la théologie de John
-MacArthur** (Master's Seminary). La lecture est volontairement faite à travers la **seule lentille
-de MacArthur** ; en cas de divergence d'interprétation, c'est sa lecture qui tranche.
+MacArthur** (Master's Seminary), en accord avec la
+[confession de foi de l'Église](<00 - Avant-propos/Confession de foi-EBC.pdf>). La lecture est
+volontairement faite à travers la **seule lentille de MacArthur** ; en cas de divergence
+d'interprétation, c'est sa lecture qui tranche, et le `NEG - MacArthur.pdf` arbitre.
 
 - herméneutique grammatico-historique, sens littéral, exposition suivie du texte ;
 - **bibliologie** : inspiration verbale et plénière, infaillibilité et suffisance de l'Écriture ;
 - **christologie** : pleine divinité éternelle et vraie humanité du Dieu-homme, naissance
   virginale ;
-- **sotériologie** : souveraineté de Dieu, élection, appel efficace et régénération monergiques
-  (TULIP), justification forensique par la grâce seule au moyen de la foi seule (la foi elle-même
-  étant un don), avec double imputation (la justice de Christ imputée au croyant, le péché du
-  croyant imputé à Christ) ; *Lordship salvation* (foi et repentance indissociables) ; persévérance
-  des saints ; les œuvres **démontrent** la foi sans jamais mériter ni produire le salut
-  (*sola fide* tenue avec Jacques 2 : « la foi seule sauve, mais la foi qui sauve n'est jamais
-  seule ») ;
+- **sotériologie** : élection, appel efficace et régénération monergiques (TULIP), justification
+  forensique par la grâce seule au moyen de la foi seule (la foi étant elle-même un don), avec
+  double imputation ; *Lordship salvation* (foi et repentance indissociables) ; persévérance des
+  saints ; les œuvres **démontrent** la foi sans jamais mériter ni produire le salut (« la foi
+  seule sauve, mais la foi qui sauve n'est jamais seule ») ;
 - **ecclésiologie** : l'Église, mystère révélé dans le NT, distincte d'Israël ; sacerdoce de tous
   les croyants ; sacrifice unique de Christ (ni répétition sacrificielle ni régénération
   baptismale) ;
@@ -80,96 +132,44 @@ de MacArthur** ; en cas de divergence d'interprétation, c'est sa lecture qui tr
   littéral et imminent, suivi d'un règne millénaire terrestre.
 
 Sources de référence : *La Bible d'étude MacArthur*, le *MacArthur New Testament Commentary*,
-gty.org et *Biblical Doctrine* (MacArthur et Mayhue). La référence d'autorité du dépôt est le
-fichier **`NEG - MacArthur.pdf`** (voir ci-dessous).
+gty.org et *Biblical Doctrine* (MacArthur et Mayhue).
 
 ---
 
-## Référence d'autorité : `NEG - MacArthur.pdf`
+## Anatomie d'un livre traité
 
-À la racine du dépôt, [`NEG - MacArthur.pdf`](<NEG - MacArthur.pdf>) reproduit *La Sainte Bible
-avec commentaires de John MacArthur* (Société Biblique de Genève) sur le texte NEG 1979 : la Bible
-complète (Ancien et Nouveau Testaments), avec pour chaque livre une introduction (titre, auteur et
-date, contexte, thèmes historiques et théologiques, problèmes d'interprétation, plan) puis le
-texte accompagné des notes d'étude de MacArthur, verset par verset. C'est la source qui **tranche
-la conformité doctrinale** de tout le matériel produit.
+Chaque dossier de livre (`NN - <Livre>/`) contient :
 
----
-
-## Textes de référence par livre
-
-Chaque livre amorcé dispose de deux fichiers de référence, structurés en markdown et **tirés
-exclusivement de [`NEG - MacArthur.pdf`](<NEG - MacArthur.pdf>)**, chacun ne portant que sur le
-livre de son dossier :
-
-- **`NEG - <Livre>.md`** : le **texte biblique** dans la Nouvelle Édition de Genève 1979, organisé
-  par titres de péricopes, renvois marginaux (en italique) et versets numérotés (notation
-  `chapitre.verset`).
+- **`NEG - <Livre>.md`** : le **texte biblique** (NEG 1979), organisé par titres de péricopes,
+  renvois marginaux et versets numérotés (notation `chapitre.verset`).
 - **`JMA - <Livre>.md`** : les **notes d'étude de *La Bible d'étude MacArthur*** (introduction du
-  livre, plan, puis notes verset par verset, les mots-vedettes commentés étant en gras).
+  livre, plan, puis notes verset par verset). Ces deux fichiers sont **tirés exclusivement** de
+  `NEG - MacArthur.pdf` et ne portent que sur le livre de leur dossier.
+- **`00 - Introduction/`** : le **plan de série** (`Serie.md` / `.pdf`), la **recherche globale**
+  du livre (`Recherche.md` / `.pdf`), la **page d'accueil** (`index.html`) et le logo
+  (`LogoEBC.avif`).
+- **`NN - <titre> (Réf c.v-v)/`** : un dossier par semaine de prédication (péricope), contenant la
+  recherche exégétique (`Recherche-MacArthur-<Livre>-<réf>.md` plus son `.pdf`) et une page web
+  `index.html`. Le numéro de semaine `NN` est sur deux chiffres (trois pour Luc et Actes).
 
-| Livre | Texte NEG 1979 | Notes MacArthur |
-|---|---|---|
-| Luc | [`42 - Luc/NEG - Luc.md`](<42 - Luc/NEG - Luc.md>) | [`42 - Luc/JMA - Luc.md`](<42 - Luc/JMA - Luc.md>) |
-| Actes | [`44 - Actes/NEG - Actes.md`](<44 - Actes/NEG - Actes.md>) | [`44 - Actes/JMA - Actes.md`](<44 - Actes/JMA - Actes.md>) |
-| Jacques | [`59 - Jacques/NEG - Jacques.md`](<59 - Jacques/NEG - Jacques.md>) | [`59 - Jacques/JMA - Jacques.md`](<59 - Jacques/JMA - Jacques.md>) |
-
----
-
-## Recherche globale et plan de série
-
-Chaque livre possède un dossier **`00 - Introduction/`** réunissant :
-
-- **`Recherche.md`** (et son `.pdf`) : une recherche exégétique couvrant le livre d'un seul tenant,
-  utile à la prédication d'introduction ;
-- le **plan de la série** de prédications (`.md` plus `.pdf`) : évaluation de la portée, titres,
-  idées maîtresses, arc narratif, notes pastorales.
-
-Pour **Jacques**, le dossier `00 - Introduction/` contient en outre le **site de présentation**
-[`index.html`](<59 - Jacques/00 - Introduction/index.html>) et le logo
-[`LogoEBC.avif`](<59 - Jacques/00 - Introduction/LogoEBC.avif>).
+**Gabarit d'une recherche exégétique** : Contexte du passage ; Arrière-plan historique et culturel ;
+Étude des mots-clés (tableau de traductions comparées S21 / NEG79 / Darby / LSG / KJF) ; Apports des
+commentateurs (prose MacArthur) ; Renvois et passages parallèles ; Thèmes théologiques (« Dans le
+texte » plus « Pour votre assemblée ») ; Pistes de réflexion.
 
 ---
 
-## Jacques : recherches par péricope
+## Le site web
 
-L'épître est découpée en **douze péricopes**, une par semaine de la série « La foi qui agit ».
-Chaque péricope possède son **dossier dédié** sous `59 - Jacques/`, contenant la recherche
-exégétique (`.md` source plus `.pdf` rendu) et une page web `index.html`.
+Chaque livre traité possède une **page de présentation** `00 - Introduction/index.html` et chaque
+péricope sa propre page `index.html` : des pages web autonomes (HTML, CSS et JavaScript, sans
+dépendance de build) reprenant un même système visuel (thème sombre à accents ambrés, polices serif
+*Cormorant Garamond* et *EB Garamond*, barre de progression de lecture, révélation au défilement).
+Le modèle de référence est
+[`59 - Jacques/00 - Introduction/index.html`](<59 - Jacques/00 - Introduction/index.html>).
 
-| Sem. | Passage | Titre de la prédication |
-|---|---|---|
-| 1 | Jacques 1.1-12 | [La joie au creuset de l'épreuve](<59 - Jacques/01 - La joie au creuset de l'épreuve (Jacques 1.1-12)/>) |
-| 2 | Jacques 1.13-18 | [Le Dieu qui ne change pas](<59 - Jacques/02 - Le Dieu qui ne change pas (Jacques 1.13-18)/>) |
-| 3 | Jacques 1.19-27 | [Auditeurs ou praticiens](<59 - Jacques/03 - Auditeurs ou praticiens (Jacques 1.19-27)/>) |
-| 4 | Jacques 2.1-13 | [La foi sans partialité](<59 - Jacques/04 - La foi sans partialité (Jacques 2.1-13)/>) |
-| 5 | Jacques 2.14-26 | [La foi qui agit](<59 - Jacques/05 - La foi qui agit (Jacques 2.14-26)/>) *(sommet doctrinal)* |
-| 6 | Jacques 3.1-12 | [Le petit membre, le grand feu](<59 - Jacques/06 - Le petit membre, le grand feu (Jacques 3.1-12)/>) |
-| 7 | Jacques 3.13-18 | [Deux sagesses](<59 - Jacques/07 - Deux sagesses (Jacques 3.13-18)/>) |
-| 8 | Jacques 4.1-10 | [L'amitié du monde](<59 - Jacques/08 - L'amitié du monde (Jacques 4.1-10)/>) |
-| 9 | Jacques 4.11-17 | [Si le Seigneur le veut](<59 - Jacques/09 - Si le Seigneur le veut (Jacques 4.11-17)/>) |
-| 10 | Jacques 5.1-6 | [Le cri des moissonneurs](<59 - Jacques/10 - Le cri des moissonneurs (Jacques 5.1-6)/>) |
-| 11 | Jacques 5.7-12 | [Patience jusqu'à son retour](<59 - Jacques/11 - Patience jusqu'à son retour (Jacques 5.7-12)/>) |
-| 12 | Jacques 5.13-20 | [La prière qui agit](<59 - Jacques/12 - La prière qui agit (Jacques 5.13-20)/>) |
-
-**Gabarit d'une recherche exégétique :** Contexte du passage ; Arrière-plan historique et culturel ;
-Étude des mots-clés (tableau de traductions comparées S21 / NEG79 / Darby / LSG / KJF) ; Apports
-des commentateurs (prose MacArthur) ; Renvois et passages parallèles ; Thèmes théologiques
-(« Dans le texte » plus « Pour votre assemblée ») ; Pistes de réflexion.
-
----
-
-## Le site web (Jacques)
-
-[`59 - Jacques/00 - Introduction/index.html`](<59 - Jacques/00 - Introduction/index.html>) est une
-page web autonome (HTML, CSS et JavaScript, sans dépendance de build) qui présente l'épître à
-l'assemblée : page-titre, introduction, une section par chapitre (1 à 5) et conclusion ; versets
-clés en exergue ; thème sombre à accents ambrés, polices serif (*Cormorant Garamond* et
-*EB Garamond*) ; barre de progression de lecture et révélation au défilement. Chaque dossier de
-péricope porte sa propre page `index.html` reprenant ce système visuel.
-
-**Pour la consulter :** ouvrir le fichier dans un navigateur (les polices proviennent de Google
-Fonts ; une connexion Internet améliore le rendu, mais la page reste lisible hors ligne).
+**Pour consulter une page :** l'ouvrir dans un navigateur (les polices proviennent de Google Fonts ;
+une connexion Internet améliore le rendu, mais la page reste lisible hors ligne).
 
 ---
 
@@ -179,35 +179,30 @@ Fonts ; une connexion Internet améliore le rendu, mais la page reste lisible ho
 .
 ├── README.md
 ├── CLAUDE.md
-├── NEG - MacArthur.pdf                     La Bible d'étude MacArthur complète (NEG) : référence de conformité
+├── PRD-Recherche-Serie.md                    Document d'exigences (chaîne de production)
+├── PRD-FollowUp.md                           Tableau de suivi vivant de l'avancement
 │
-├── 59 - Jacques/                           Épître de Jacques (le plus abouti, gabarit de référence)
-│   ├── 01 - La joie au creuset de l'épreuve (Jacques 1.1-12)/
-│   │   └── Recherche-MacArthur-Jacques-1-1-12.md / .pdf plus index.html
-│   ├── …                                   (12 dossiers, un par semaine)
-│   ├── 00 - Introduction/
-│   │   ├── index.html, LogoEBC.avif        Site de présentation plus logo
-│   │   ├── Recherche.md / .pdf             Recherche sur Jacques 1.1 à 5.20
-│   │   └── Serie.md / .pdf                 Plan de la série (12 semaines)
-│   ├── NEG - Jacques.md                    Texte biblique (NEG 1979)
-│   └── JMA - Jacques.md                    Notes d'étude (La Bible d'étude MacArthur)
+├── 00 - Avant-propos/                        Fondations : références, doctrine, piété, outillage
+│   ├── NEG - MacArthur.pdf                    La Bible d'étude MacArthur (NEG) : arbitre de conformité
+│   ├── Confession de foi-EBC.pdf             Confession de foi de l'Église (rév. 2016)
+│   ├── PrecisDicipulat.md / .pdf             Précis du discipulat chrétien
+│   ├── Coram Christo.pdf                     Ressource d'accompagnement pastoral
+│   ├── Vallée de la Vision.pdf               Recueil de prières puritaines
+│   └── extract_nt.py, extract_at.py, md-to-pdf.py   Outillage de production
 │
-├── 42 - Luc/                               Évangile selon Luc
-│   ├── 00 - Introduction/                  Recherche globale (.md / .pdf)
-│   ├── NEG - Luc.md
-│   └── JMA - Luc.md
+├── 01 - Genèse/                              Ancien Testament : Genèse 1 à 11 (série complète)
+├── 19 - Psaume 19/  19 - Psaume 119/         Ancien Testament : séries de Psaumes
 │
-├── 44 - Actes/                             Actes des Apôtres
-│   ├── 00 - Introduction/                  Recherche globale (.md / .pdf)
-│   ├── NEG - Actes.md
-│   └── JMA - Actes.md
-│
-└── 40 - Matthieu/ … 66 - Apocalypse/       Les 24 autres livres du NT (dossiers en attente)
+├── 40 - Matthieu/ … 66 - Apocalypse/         Nouveau Testament : les 27 livres (complets)
+│   ├── NEG - <Livre>.md                       Texte biblique (NEG 1979)
+│   ├── JMA - <Livre>.md                       Notes d'étude (La Bible d'étude MacArthur)
+│   ├── 00 - Introduction/                     Série, recherche globale, page d'accueil, logo
+│   └── NN - <titre> (Réf c.v-v)/              Un dossier par péricope (.md + .pdf + index.html)
 ```
 
 Pour chaque recherche, le `.md` est la source rédigée et le `.pdf` en est l'export mis en page.
-Les artefacts d'outillage local (p. ex. `ruvector.db`) et les fichiers temporaires sont exclus du
-dépôt via `.gitignore`.
+Les artefacts d'outillage local (p. ex. `ruvector.db`), le cache Python et les fichiers temporaires
+sont exclus du dépôt via `.gitignore`.
 
 ---
 
@@ -217,6 +212,6 @@ dépôt via `.gitignore`.
 - Recherches et séries signées **AGB · EBC**.
 - Textes bibliques : Nouvelle Édition de Genève 1979 (NEG) ; textes originaux NA28 / BHS.
 - Notes d'étude : *La Sainte Bible avec commentaires de John MacArthur* (Société Biblique de
-  Genève, 2006).
+  Genève).
 
 *Soli Deo Gloria.*
