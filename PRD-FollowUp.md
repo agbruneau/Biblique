@@ -18,6 +18,20 @@ futurisme du discours des Oliviers). **Résultat : conformité intégrale à la 
 0 écart doctrinal ; 0 tiret cadratin et 0 anglicisme « covenant » en prose dans le périmètre.** ·
 **AGB** · **EBC**
 
+**Validation de conformité doctrinale, jalons J1-J4 et tout le dépôt (revue 2026-06-20)** : audit
+indépendant des 19 livres restants (J1 Galates ; J2 Luc 129 et Actes 77 ; J3 les 15 épîtres ;
+Jacques) et des brouillons théologiques du dossier `To Do`, soit 29 unités auditées par workflow
+multi-agents (un auditeur par livre, gros livres scindés, lots séquentiels pour éviter le
+rate-limit), chaque écart confronté à 2 vérificateurs adverses. **Résultat : 27 unités pleinement
+conformes ; 3 écarts réels confirmés, tous corrigés.** (1-2) `42 - Luc/00 - Introduction/Serie.md`
+et `44 - Actes/00 - Introduction/Serie.md` présentaient la lecture amillénariste « covenantale » de
+la tradition 1689 comme co-position légitime sur le discours des Oliviers (plus l'anglicisme
+« covenantale ») → recentrés sur la seule lentille MacArthur (prémillénarisme dispensationaliste,
+distinction Israël / Église, promesses non spiritualisées). (3) `To Do/PrecisDicipulat.md`
+comportait 25 tirets cadratins → remplacés par la ponctuation française appropriée (doctrine déjà
+conforme). Les 2 `Serie.pdf` touchés ont été régénérés avec vérification round-trip. ·
+**AGB** · **EBC**
+
 > Convention d'état : `✓` fait et vérifié · `◻` à faire · `~` en cours · `s.o.` sans objet.
 > Une activité n'est cochée qu'après **vérification par constat** (gabarit + conformité doctrinale) :
 > 7 sections · 5 mots-clés × 5 traductions · renvois typés · thèmes à deux volets · 5-7 pistes ·
