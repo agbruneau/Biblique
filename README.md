@@ -169,6 +169,12 @@ dépendance de build) reprenant un même système visuel (thème sombre à accen
 Le modèle de référence est
 [`59 - Jacques/00 - Introduction/index.html`](<59 - Jacques/00 - Introduction/index.html>).
 
+Un **index de navigation** [`index.html`](index.html) à la racine du dépôt fédère l'ensemble : il
+relie les 30 pages de présentation des livres, regroupées par sections (Ancien Testament,
+Évangiles, Histoire, épîtres pauliniennes, épîtres générales, Apocalypse), et pointe vers la
+ressource *Coram Christo*. La navigation est **aller-retour** : chaque page de présentation renvoie
+à cet index (« Tous les livres ») et chaque péricope renvoie à la présentation de son livre.
+
 **Pour consulter une page :** l'ouvrir dans un navigateur (les polices proviennent de Google Fonts ;
 une connexion Internet améliore le rendu, mais la page reste lisible hors ligne).
 
@@ -180,6 +186,8 @@ une connexion Internet améliore le rendu, mais la page reste lisible hors ligne
 .
 ├── README.md
 ├── CLAUDE.md
+├── index.html                                Index de navigation racine (les 30 livres + Coram Christo)
+├── LogoEBC.avif                              Logo référencé par l'index racine
 │
 ├── 00 - Avant-propos/                        Fondations : références, doctrine, piété, outillage
 │   ├── NEG - MacArthur.pdf                    La Bible d'étude MacArthur (NEG) : arbitre de conformité

@@ -136,6 +136,7 @@ conformité** de tout le contenu.
 ```
 Biblique/
   README.md  CLAUDE.md
+  index.html  LogoEBC.avif      Index de navigation racine (fédère les 30 livres + lien Coram Christo) et son logo
   00 - Avant-propos/            Fondations du dépôt
     NEG - MacArthur.pdf         La Bible d'étude MacArthur (NEG, 2216 p.) : RÉFÉRENCE de conformité (AT + NT)
     Confession de foi-EBC.pdf   Confession de foi de l'Église (rév. 2016)
@@ -194,6 +195,14 @@ Pour tout nouveau livre, la chaîne de production se déroule ainsi :
   <Livre> c.v-v ». Contenu **fidèle au `.md`**, transposé dans les composants (tableau `.mots`,
   renvois `.renvoi`, thèmes `.theme`, questions `.questions`). Footer : EBC + pasteur Simon
   Ouellette + crédit AGB + mention NEG.
+- **Index racine** (`index.html` + `LogoEBC.avif`) : hub de navigation fédérateur regroupant les 30
+  pages de présentation par sections (AT, Évangiles, Histoire, pauliniennes, générales, Apocalypse)
+  plus un lien *Coram Christo*. **Inscrire tout nouveau livre dans cet index** (carte dans la bonne
+  section) et poser les **liens de retour** : péricope vers `00 - Introduction/index.html` du livre,
+  présentation vers `../../index.html` (« Tous les livres »). Les `index.html` partagent un **CSS/JS
+  canonique** (péricopes byte-identiques ; introductions = canonique commun, taille de titre réduite
+  seulement pour les noms longs comme Actes ou 2 Thessaloniciens) : modeler tout nouveau fichier
+  dessus.
 
 ## Règles d'édition
 
@@ -204,8 +213,10 @@ Pour tout nouveau livre, la chaîne de production se déroule ainsi :
   voulus (le `.html` transpose la prose en puces, intertitres, chapeau `.lead` plus corps) ; ne pas
   forcer une parité littérale qui casserait le gabarit.
 - Après toute modification du `.md` ou de l'`.html`, **régénérer le `.pdf`** correspondant.
-- **Liens des `index.html`** : chemins relatifs depuis le dossier de péricope vers le dossier
-  `00 - Introduction/` du même livre ; encodage URL des espaces et accents (`%20`, etc.).
+- **Liens des `index.html`** : chemins relatifs ; péricope vers `00 - Introduction/` du même livre,
+  `00 - Introduction/` vers l'index racine (`../../index.html`), index racine vers les livres et
+  `00 - Avant-propos/`. **Encodage URL des espaces et accents** (`%20`, `%C3%A9`, etc.) : ne jamais
+  laisser d'espace ou d'accent brut dans un `href`/`src`, ni produire de double-encodage (`%2520`).
 - Citations bibliques : **NEG 1979**. Grec et hébreu translittérés avec glose ; substrats
   NA28 / BHS.
 - **Aucun tiret cadratin (—)**. Français canadien **correctement accentué** (après une génération
