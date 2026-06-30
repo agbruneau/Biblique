@@ -194,7 +194,7 @@
   /* Entrée orchestrée du hero (douce) */
   @keyframes riseIn{from{opacity:0;transform:translateY(18px);}to{opacity:1;transform:none;}}
   @keyframes frameIn{from{opacity:0;}to{opacity:1;}}
-  .hero__kicker,.hero__title,.ornament,.hero__verse,.hero__ref,.hero__series{
+  .hero__kicker,.hero__title,.ornament,.hero__verse,.hero__ref,.hero__series,.hero__meta{
     opacity:0;animation:riseIn .95s cubic-bezier(.2,.7,.2,1) forwards;
   }
   .hero__kicker{animation-delay:.15s;}
@@ -203,6 +203,26 @@
   .hero__verse{animation-delay:.75s;}
   .hero__ref{animation-delay:1s;}
   .hero__series{animation-delay:1.15s;}
+  .hero__meta{animation-delay:1.3s;}
+
+  /* ---- Ajouts canoniques : byline hero + mouvements (conditionnels) ---- */
+  .hero__meta{
+    margin-top:1rem;font-size:.78rem;letter-spacing:.26em;
+    text-transform:uppercase;color:var(--encre-doux);
+  }
+  .mouvement-titre{
+    font-family:"Cormorant Garamond",serif;font-weight:600;
+    font-size:clamp(1.5rem,1.1rem + 1.4vw,2.05rem);line-height:1.15;
+    color:var(--or-clair);margin:3.2rem 0 .2rem;
+    display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1rem;
+    padding-bottom:.55rem;border-bottom:1px solid var(--filet);
+  }
+  .mouvement-titre:first-of-type{margin-top:2.4rem;}
+  .mouvement-ref{
+    font-family:"EB Garamond",serif;font-weight:400;
+    font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--encre-doux);
+  }
 
   /* ---- Sections ---- */
   main{position:relative;z-index:2;}
@@ -345,7 +365,7 @@
     text-transform:uppercase;color:var(--or);
   }
 
-  /* ---- Prédication : accès aux recherches ---- */
+  /* ---- Prédication : accès aux douze recherches ---- */
   .semaines{
     list-style:none;margin:2.4rem 0 0;padding:0;
     display:grid;gap:1.1rem;
@@ -1119,6 +1139,7 @@
   <p class="footer__line">Série «&nbsp;Le Roi-Messie d'Israël&nbsp;» · Citations bibliques : Nouvelle Édition de Genève 1979 (NEG)</p>
   <p class="footer__line">Recherche et série · AGB · EBC</p>
   <p class="footer__retour" style="display:flex;flex-wrap:wrap;justify-content:center;gap:.7rem;margin:2rem 0 .3rem;">
+    <a href="../../index.html" style="display:inline-block;padding:.7rem 1.7rem;border:1px solid var(--filet-fort);border-radius:999px;background:rgba(232,132,60,.12);color:var(--or-clair);font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;">&#8592;&nbsp;Tous les livres</a>
     <a href="Recherche.pdf" target="_blank" rel="noopener" style="display:inline-block;padding:.7rem 1.7rem;border:1px solid var(--filet-fort);border-radius:999px;color:var(--or-clair);font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;">Version PDF&nbsp;&#8599;</a>
   </p>
   <p class="footer__sdg">Soli Deo Gloria</p>
@@ -1141,7 +1162,7 @@
   window.addEventListener('scroll', onScroll, {passive:true});
   onScroll();
 
-  // Apparition de la navigation apres le hero
+  // Apparition de la navigation après le hero
   if ('IntersectionObserver' in window){
     var navObs = new IntersectionObserver(function(entries){
       entries.forEach(function(e){
@@ -1151,7 +1172,7 @@
     }, {rootMargin:'-70px 0px 0px 0px'});
     navObs.observe(hero);
 
-    // Revelation au defilement
+    // Révélation au défilement
     var revObs = new IntersectionObserver(function(entries){
       entries.forEach(function(e){
         if (e.isIntersecting){ e.target.classList.add('in'); revObs.unobserve(e.target); }

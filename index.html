@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Église Baptiste de Charlesbourg · Études bibliques</title>
+<meta name="description" content="Ressource d'étude biblique de l'Église Baptiste de Charlesbourg : expositions suivies, livre par livre, conformes à la théologie de John MacArthur. Pasteur Simon Ouellette.">
+<meta name="author" content="Église Baptiste de Charlesbourg">
+<style>
+  :root{
+    --nuit:#0a0a0a; --nuit-1:#121212; --nuit-2:#1b1b1b;
+    --encre:#f3f0ec; --encre-doux:#c9c2ba;
+    --or:#e8843c; --or-clair:#f6a85c; --feuille:#f0b659; --feuille-vif:#f7c97a;
+    --filet:rgba(232,132,60,.28); --filet-fort:rgba(232,132,60,.52);
+    --max:max(58rem,82vw);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scrollbar-color:var(--or) var(--nuit);scrollbar-width:thin;}
+  body{
+    margin:0;
+    font-family:"EB Garamond",Georgia,"Times New Roman",serif;
+    font-size:clamp(1.15rem,.95rem + .7vw,1.4rem); line-height:1.8;
+    color:var(--encre); background:var(--nuit);
+    background-image:
+      radial-gradient(120% 80% at 50% -10%, rgba(240,182,89,.10), transparent 55%),
+      radial-gradient(90% 60% at 85% 8%, rgba(232,132,60,.06), transparent 60%),
+      radial-gradient(100% 70% at 12% 35%, rgba(232,132,60,.05), transparent 58%);
+    background-attachment:fixed; overflow-x:hidden;
+  }
+  .grain{
+    position:fixed;inset:0;z-index:3;pointer-events:none;opacity:.03;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .vignette{position:fixed;inset:0;z-index:1;pointer-events:none;background:radial-gradient(135% 105% at 50% 35%, transparent 56%, rgba(0,0,0,.42) 100%);}
+  a{color:var(--feuille);text-decoration:none;}
+  a:focus-visible{outline:2px solid var(--or);outline-offset:3px;border-radius:3px;}
+  ::selection{background:rgba(232,132,60,.34);color:#fff;}
+  ::-webkit-scrollbar{width:12px;}
+  ::-webkit-scrollbar-track{background:var(--nuit);}
+  ::-webkit-scrollbar-thumb{background:linear-gradient(var(--or),#7a4218);border:3px solid var(--nuit);border-radius:10px;}
+  ::-webkit-scrollbar-thumb:hover{background:var(--or-clair);}
+
+  /* ---- Barre de progression ---- */
+  .progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:60;background:linear-gradient(90deg,var(--or),var(--or-clair),var(--feuille));box-shadow:0 0 12px rgba(232,132,60,.6);transition:width .1s linear;}
+
+  /* ---- Navigation ---- */
+  .nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;gap:1.5rem;padding:.85rem clamp(1rem,4vw,2.5rem);background:rgba(10,10,10,.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--filet);transform:translateY(-110%);transition:transform .45s cubic-bezier(.2,.7,.2,1);}
+  .nav.show{transform:translateY(0);}
+  .nav__progress{position:absolute;left:0;bottom:-1px;height:2px;width:0;background:linear-gradient(90deg,var(--or),var(--or-clair),var(--feuille));box-shadow:0 0 10px rgba(232,132,60,.55);transition:width .1s linear;}
+  .nav__logo{flex:none;display:block;}
+  .nav__logo img{height:clamp(2.2rem,2rem + 1vw,2.9rem);width:auto;display:block;}
+  .nav__brand{font-family:"Cormorant Garamond",serif;font-size:1.55rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--or-clair);white-space:nowrap;}
+  .nav__links{display:flex;gap:.15rem;margin-left:auto;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;}
+  .nav__links::-webkit-scrollbar{display:none;}
+  .nav__links a{position:relative;font-size:.86rem;letter-spacing:.14em;text-transform:uppercase;color:var(--encre-doux);padding:.5rem .8rem;border-radius:2px;white-space:nowrap;transition:color .25s;}
+  .nav__links a::after{content:"";position:absolute;left:.8rem;right:.8rem;bottom:.18rem;height:1px;background:var(--or);transform:scaleX(0);transform-origin:left;transition:transform .3s;}
+  .nav__links a:hover{color:var(--or-clair);}
+  .nav__links a:hover::after{transform:scaleX(1);}
+
+  /* ---- Hero ---- */
+  .hero{
+    position:relative;min-height:100svh;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;padding:5rem 1.4rem 4rem;
+  }
+  .hero__frame{
+    position:absolute;inset:clamp(.9rem,3.5vw,2.4rem);
+    border:1px solid var(--filet);pointer-events:none;
+    opacity:0;animation:frameIn 1.5s ease .15s forwards;
+  }
+  .hero__frame::before,.hero__frame::after{content:"";position:absolute;width:16px;height:16px;}
+  .hero__frame::before{top:-1px;left:-1px;border-top:2px solid var(--or);border-left:2px solid var(--or);}
+  .hero__frame::after{bottom:-1px;right:-1px;border-bottom:2px solid var(--or);border-right:2px solid var(--or);}
+  .hero__logo img{height:clamp(5rem,4rem + 6vw,7.5rem);width:auto;display:block;margin:0 auto 1.6rem;filter:drop-shadow(0 0 26px rgba(240,182,89,.22));}
+  .hero__kicker{font-size:clamp(.8rem,.65rem + .55vw,1rem);letter-spacing:.4em;text-transform:uppercase;color:var(--or);margin:0 0 .35em .4em;}
+  .hero__title{
+    font-family:"Cormorant Garamond",serif;font-weight:600;
+    font-size:clamp(3rem,6vw + 1rem,6.5rem);line-height:1;letter-spacing:.03em;margin:0;
+    padding:.06em .08em .18em;
+    background:linear-gradient(176deg,#f9e1bb 0%,var(--or-clair) 45%,var(--or) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;
+    filter:drop-shadow(0 0 34px rgba(240,182,89,.30)) drop-shadow(0 2px 3px rgba(0,0,0,.5));
+  }
+  .ornament{display:flex;align-items:center;justify-content:center;gap:1rem;margin:1.6rem 0;color:var(--or);width:min(22rem,80%);}
+  .ornament::before,.ornament::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,transparent,var(--filet-fort),transparent);}
+  .ornament span{font-size:.8rem;}
+  .hero__verse{
+    font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:500;
+    font-size:clamp(1.35rem,1.05rem + 1.3vw,2rem);line-height:1.55;color:var(--encre);
+    max-width:max(42rem,66vw);margin:0 auto;text-wrap:balance;
+  }
+  .hero__verse .q{color:var(--or);font-style:normal;}
+  .hero__ref{margin-top:1.5rem;font-size:.92rem;letter-spacing:.26em;text-transform:uppercase;color:var(--or);}
+  .hero__series{margin-top:2.4rem;font-size:.85rem;letter-spacing:.26em;text-transform:uppercase;color:var(--encre-doux);}
+  .hero__series b{color:var(--feuille);font-weight:600;}
+  .scrollcue{position:absolute;bottom:1.7rem;left:50%;transform:translateX(-50%);color:var(--or);font-size:1.3rem;opacity:.75;animation:bob 2.4s ease-in-out infinite;}
+  @keyframes bob{0%,100%{transform:translate(-50%,0);}50%{transform:translate(-50%,7px);}}
+  @keyframes riseIn{from{opacity:0;transform:translateY(18px);}to{opacity:1;transform:none;}}
+  @keyframes frameIn{from{opacity:0;}to{opacity:1;}}
+  .hero__logo,.hero__kicker,.hero__title,.ornament,.hero__verse,.hero__ref,.hero__series{opacity:0;animation:riseIn .95s cubic-bezier(.2,.7,.2,1) forwards;}
+  .hero__logo{animation-delay:.05s;} .hero__kicker{animation-delay:.2s;} .hero__title{animation-delay:.35s;}
+  .ornament{animation-delay:.6s;} .hero__verse{animation-delay:.75s;} .hero__ref{animation-delay:1s;} .hero__series{animation-delay:1.15s;}
+
+  /* ---- Sections ---- */
+  main{position:relative;z-index:2;}
+  .section{max-width:var(--max);margin:0 auto;padding:clamp(3rem,7vw,5.5rem) clamp(1.4rem,5vw,2rem);scroll-margin-top:2rem;}
+  .sec-head{text-align:center;margin-bottom:2.6rem;}
+  .sec-num{
+    display:flex;align-items:center;justify-content:center;gap:1rem;
+    font-family:"Cormorant Garamond",serif;font-weight:500;
+    font-size:clamp(2.4rem,1.8rem + 2.6vw,3.6rem);line-height:1;color:var(--or);
+    letter-spacing:.05em;margin-bottom:.3rem;filter:drop-shadow(0 0 22px rgba(232,132,60,.28));
+  }
+  .sec-num::before,.sec-num::after{content:"";width:clamp(1.6rem,6vw,3rem);height:1px;background:linear-gradient(90deg,transparent,var(--filet-fort));}
+  .sec-num::after{background:linear-gradient(90deg,var(--filet-fort),transparent);}
+  .sec-title{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:clamp(1.9rem,1.4rem + 2vw,2.8rem);line-height:1.12;color:var(--encre);margin:0;text-wrap:balance;}
+  .sec-sub{margin:.8rem 0 0;font-size:.92rem;letter-spacing:.2em;text-transform:uppercase;color:var(--encre-doux);}
+
+  /* ---- Grille de livres ---- */
+  .grid{
+    display:grid;gap:1rem;
+    grid-template-columns:repeat(auto-fill,minmax(min(100%,13.5rem),1fr));
+  }
+  .card{
+    display:flex;align-items:center;gap:1rem;
+    padding:1.1rem 1.3rem;border-radius:4px;
+    background:linear-gradient(160deg,var(--nuit-2),var(--nuit-1));
+    border:1px solid var(--filet);color:var(--encre);
+    transition:transform .25s cubic-bezier(.2,.7,.2,1),border-color .25s,box-shadow .25s;
+  }
+  .card:hover{transform:translateY(-3px);border-color:var(--filet-fort);box-shadow:0 10px 28px rgba(0,0,0,.45),0 0 0 1px var(--filet);}
+  .card:focus-visible{outline:2px solid var(--or);outline-offset:3px;}
+  .card__num{
+    flex:none;display:flex;align-items:center;justify-content:center;
+    width:2.6rem;height:2.6rem;border-radius:50%;
+    font-family:"Cormorant Garamond",serif;font-size:1.05rem;font-weight:600;
+    color:var(--or-clair);background:rgba(232,132,60,.10);border:1px solid var(--filet);
+    letter-spacing:.02em;
+  }
+  .card__name{font-family:"Cormorant Garamond",serif;font-size:1.4rem;font-weight:600;line-height:1.15;color:var(--encre);}
+  .card:hover .card__name{color:var(--or-clair);}
+
+  /* ---- Footer ---- */
+  .footer{position:relative;z-index:2;text-align:center;padding:4rem 1.4rem 3.5rem;border-top:1px solid var(--filet);margin-top:2rem;}
+  .footer__logo{height:clamp(3.4rem,3rem + 2vw,4.6rem);width:auto;opacity:.9;margin-bottom:1.2rem;filter:drop-shadow(0 0 18px rgba(240,182,89,.18));}
+  .footer__church{font-family:"Cormorant Garamond",serif;font-size:1.5rem;font-weight:600;letter-spacing:.04em;color:var(--or-clair);margin:0 0 .5rem;}
+  .footer__line{font-size:.92rem;color:var(--encre-doux);margin:.2rem 0;letter-spacing:.02em;}
+  .footer__sdg{margin-top:1.6rem;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:1.15rem;color:var(--or);}
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important;}
+    .hero__logo,.hero__kicker,.hero__title,.ornament,.hero__verse,.hero__ref,.hero__series,.hero__frame{opacity:1;}
+  }
+</style>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav__progress" id="navProgress" aria-hidden="true"></div>
+  <a class="nav__logo" href="#hero" aria-label="Église Baptiste de Charlesbourg, haut de page">
+    <img src="01%20-%20Gen%C3%A8se/00%20-%20Introduction/LogoEBC.avif" width="80" height="250" alt="" decoding="async">
+  </a>
+  <span class="nav__brand">Études bibliques</span>
+  <nav class="nav__links" aria-label="Sections">
+    <a href="#livres">Ancien Testament</a>
+    <a href="#nt">Nouveau Testament</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ PAGE-TITRE ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__frame" aria-hidden="true"></div>
+    <a class="hero__logo" href="#livres" aria-label="Aller aux livres">
+      <img src="01%20-%20Gen%C3%A8se/00%20-%20Introduction/LogoEBC.avif" width="80" height="250" alt="" decoding="async">
+    </a>
+    <p class="hero__kicker">Église Baptiste de Charlesbourg</p>
+    <h1 class="hero__title">Études bibliques</h1>
+    <div class="ornament" aria-hidden="true"><span>◆</span></div>
+    <p class="hero__verse">
+      <span class="q">«</span>&nbsp;Ta parole est une lampe à mes pieds, et une lumière sur mon sentier.&nbsp;<span class="q">»</span>
+    </p>
+    <p class="hero__ref">Psaume 119.105 · NEG</p>
+    <p class="hero__series">Exposition suivie, livre par livre · <b>30 livres</b></p>
+    <div class="scrollcue" aria-hidden="true">↓</div>
+  </section>
+
+  <!-- ============ ANCIEN TESTAMENT ============ -->
+  <section class="section" id="livres">
+    <div class="sec-head">
+      <div class="sec-num" aria-hidden="true">AT</div>
+      <h2 class="sec-title">Ancien Testament</h2>
+      <p class="sec-sub">3 séries</p>
+    </div>
+    <div class="grid">
+      <a class="card" href="01%20-%20Gen%C3%A8se/00%20-%20Introduction/index.html">
+        <span class="card__num">01</span>
+        <span class="card__name">Genèse</span>
+      </a>
+      <a class="card" href="19%20-%20Psaume%2019/00%20-%20Introduction/index.html">
+        <span class="card__num">19</span>
+        <span class="card__name">Psaume 19</span>
+      </a>
+      <a class="card" href="19%20-%20Psaume%20119/00%20-%20Introduction/index.html">
+        <span class="card__num">19</span>
+        <span class="card__name">Psaume 119</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ NOUVEAU TESTAMENT ============ -->
+  <section class="section" id="nt">
+    <div class="sec-head">
+      <div class="sec-num" aria-hidden="true">NT</div>
+      <h2 class="sec-title">Nouveau Testament</h2>
+      <p class="sec-sub">27 livres · le canon complet</p>
+    </div>
+    <div class="grid">
+      <a class="card" href="40%20-%20Matthieu/00%20-%20Introduction/index.html">
+        <span class="card__num">40</span>
+        <span class="card__name">Matthieu</span>
+      </a>
+      <a class="card" href="41%20-%20Marc/00%20-%20Introduction/index.html">
+        <span class="card__num">41</span>
+        <span class="card__name">Marc</span>
+      </a>
+      <a class="card" href="42%20-%20Luc/00%20-%20Introduction/index.html">
+        <span class="card__num">42</span>
+        <span class="card__name">Luc</span>
+      </a>
+      <a class="card" href="43%20-%20Jean/00%20-%20Introduction/index.html">
+        <span class="card__num">43</span>
+        <span class="card__name">Jean</span>
+      </a>
+      <a class="card" href="44%20-%20Actes/00%20-%20Introduction/index.html">
+        <span class="card__num">44</span>
+        <span class="card__name">Actes</span>
+      </a>
+      <a class="card" href="45%20-%20Romains/00%20-%20Introduction/index.html">
+        <span class="card__num">45</span>
+        <span class="card__name">Romains</span>
+      </a>
+      <a class="card" href="46%20-%201%20Corinthiens/00%20-%20Introduction/index.html">
+        <span class="card__num">46</span>
+        <span class="card__name">1 Corinthiens</span>
+      </a>
+      <a class="card" href="47%20-%202%20Corinthiens/00%20-%20Introduction/index.html">
+        <span class="card__num">47</span>
+        <span class="card__name">2 Corinthiens</span>
+      </a>
+      <a class="card" href="48%20-%20Galates/00%20-%20Introduction/index.html">
+        <span class="card__num">48</span>
+        <span class="card__name">Galates</span>
+      </a>
+      <a class="card" href="49%20-%20%C3%89ph%C3%A9siens/00%20-%20Introduction/index.html">
+        <span class="card__num">49</span>
+        <span class="card__name">Éphésiens</span>
+      </a>
+      <a class="card" href="50%20-%20Philippiens/00%20-%20Introduction/index.html">
+        <span class="card__num">50</span>
+        <span class="card__name">Philippiens</span>
+      </a>
+      <a class="card" href="51%20-%20Colossiens/00%20-%20Introduction/index.html">
+        <span class="card__num">51</span>
+        <span class="card__name">Colossiens</span>
+      </a>
+      <a class="card" href="52%20-%201%20Thessaloniciens/00%20-%20Introduction/index.html">
+        <span class="card__num">52</span>
+        <span class="card__name">1 Thessaloniciens</span>
+      </a>
+      <a class="card" href="53%20-%202%20Thessaloniciens/00%20-%20Introduction/index.html">
+        <span class="card__num">53</span>
+        <span class="card__name">2 Thessaloniciens</span>
+      </a>
+      <a class="card" href="54%20-%201%20Timoth%C3%A9e/00%20-%20Introduction/index.html">
+        <span class="card__num">54</span>
+        <span class="card__name">1 Timothée</span>
+      </a>
+      <a class="card" href="55%20-%202%20Timoth%C3%A9e/00%20-%20Introduction/index.html">
+        <span class="card__num">55</span>
+        <span class="card__name">2 Timothée</span>
+      </a>
+      <a class="card" href="56%20-%20Tite/00%20-%20Introduction/index.html">
+        <span class="card__num">56</span>
+        <span class="card__name">Tite</span>
+      </a>
+      <a class="card" href="57%20-%20Phil%C3%A9mon/00%20-%20Introduction/index.html">
+        <span class="card__num">57</span>
+        <span class="card__name">Philémon</span>
+      </a>
+      <a class="card" href="58%20-%20H%C3%A9breux/00%20-%20Introduction/index.html">
+        <span class="card__num">58</span>
+        <span class="card__name">Hébreux</span>
+      </a>
+      <a class="card" href="59%20-%20Jacques/00%20-%20Introduction/index.html">
+        <span class="card__num">59</span>
+        <span class="card__name">Jacques</span>
+      </a>
+      <a class="card" href="60%20-%201%20Pierre/00%20-%20Introduction/index.html">
+        <span class="card__num">60</span>
+        <span class="card__name">1 Pierre</span>
+      </a>
+      <a class="card" href="61%20-%202%20Pierre/00%20-%20Introduction/index.html">
+        <span class="card__num">61</span>
+        <span class="card__name">2 Pierre</span>
+      </a>
+      <a class="card" href="62%20-%201%20Jean/00%20-%20Introduction/index.html">
+        <span class="card__num">62</span>
+        <span class="card__name">1 Jean</span>
+      </a>
+      <a class="card" href="63%20-%202%20Jean/00%20-%20Introduction/index.html">
+        <span class="card__num">63</span>
+        <span class="card__name">2 Jean</span>
+      </a>
+      <a class="card" href="64%20-%203%20Jean/00%20-%20Introduction/index.html">
+        <span class="card__num">64</span>
+        <span class="card__name">3 Jean</span>
+      </a>
+      <a class="card" href="65%20-%20Jude/00%20-%20Introduction/index.html">
+        <span class="card__num">65</span>
+        <span class="card__name">Jude</span>
+      </a>
+      <a class="card" href="66%20-%20Apocalypse/00%20-%20Introduction/index.html">
+        <span class="card__num">66</span>
+        <span class="card__name">Apocalypse</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <img class="footer__logo" src="01%20-%20Gen%C3%A8se/00%20-%20Introduction/LogoEBC.avif" width="80" height="250" alt="" decoding="async" loading="lazy">
+  <p class="footer__church">Église Baptiste de Charlesbourg</p>
+  <p class="footer__line">Pasteur Simon Ouellette · Charlesbourg, Québec</p>
+  <p class="footer__line">Recherches &amp; séries : AGB · EBC · Citations bibliques : Nouvelle Édition de Genève 1979 (NEG)</p>
+  <p class="footer__retour" style="display:flex;flex-wrap:wrap;justify-content:center;gap:.7rem;margin:2rem 0 .3rem;">
+    <a href="00%20-%20Avant-propos/Coram%20Christo.pdf" target="_blank" rel="noopener" style="display:inline-block;padding:.7rem 1.7rem;border:1px solid var(--filet-fort);border-radius:999px;color:var(--or-clair);font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;">Coram Christo&nbsp;&#8599;</a>
+  </p>
+  <p class="footer__sdg">Soli Deo Gloria</p>
+</footer>
+
+<script>
+  // Barre de progression de lecture + apparition de la navigation apres le hero
+  var progress = document.getElementById('progress');
+  var navProgress = document.getElementById('navProgress');
+  var nav = document.getElementById('nav');
+  var hero = document.getElementById('hero');
+
+  function onScroll(){
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    var pct = max > 0 ? (h.scrollTop || document.body.scrollTop) / max * 100 : 0;
+    progress.style.width = pct + '%';
+    if (navProgress) navProgress.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  if ('IntersectionObserver' in window){
+    var navObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) nav.classList.remove('show');
+        else nav.classList.add('show');
+      });
+    }, {rootMargin:'-70px 0px 0px 0px'});
+    navObs.observe(hero);
+  }
+</script>
+</body>
+</html>

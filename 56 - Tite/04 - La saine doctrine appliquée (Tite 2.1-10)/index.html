@@ -149,7 +149,7 @@
     font-weight:600;
     font-size:clamp(3.8rem,8vw + 1rem,9rem);
     line-height:1;letter-spacing:.04em;margin:0;
-    /* Espace bas/côtés pour que les jambages ne soient pas rognés par background-clip:text */
+    /* Espace bas/côtés pour que les jambages du J et du q ne soient pas rognés par background-clip:text */
     padding:.06em .08em .2em;
     background:linear-gradient(176deg,#f9e1bb 0%,var(--or-clair) 45%,var(--or) 100%);
     -webkit-background-clip:text;background-clip:text;
@@ -444,6 +444,7 @@
     border:1px solid var(--filet);border-radius:9px;
     background:linear-gradient(180deg,rgba(27,27,27,.55),rgba(18,18,18,.35));
   }
+  .theme + .theme{margin-top:1.6rem;}
   .theme__title{
     display:flex;align-items:center;gap:.75rem;margin:0 0 1.2rem;
     font-family:"Cormorant Garamond",serif;font-weight:600;
@@ -465,9 +466,6 @@
     padding:1.05rem 1.15rem;border:1px solid var(--filet);border-radius:6px;
     background:linear-gradient(180deg,rgba(232,132,60,.07),transparent);
   }
-
-  /* Espacement entre thèmes successifs */
-  .themes-stack{display:grid;gap:1.5rem;margin-top:2.4rem;}
 
   /* ---- Pistes de réflexion (questions numérotées) ---- */
   .questions{list-style:none;counter-reset:q;margin:2.4rem 0 0;padding:0;display:grid;gap:1.5rem;}
